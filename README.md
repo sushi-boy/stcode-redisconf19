@@ -25,14 +25,14 @@ When using ZADD, we apply...
 
 ## 2. How search works  
 
-Search is conducted by using ZRANGEBYSCORE command available for redis.
+Search is conducted by using ZRANGEBYSCORE command available for redis.  
 ZRANGEBYSCORE can be used to search VALUES of a particular KEY filtered by the range of SCORE.  
 
 # Usage
 
 ## Data insertion  
 
-Simply type the command below.
+Simply type the command below.  
 Change the input values of latitude, longitude, and time depending on the data you want to use.  
 ~~~
 python3 st_insert.py
@@ -40,7 +40,7 @@ python3 st_insert.py
 
 ## Range query search
 
-Simply type the command below.
+Simply type the command below.  
 Change the center point of search values of latitude, longitude, and time depending on the location and time you want to search.    
 ~~~
 python3 st_search.py
