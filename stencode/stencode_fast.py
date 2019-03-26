@@ -13,4 +13,5 @@ def stencode_fast(input, maxmin,precision):
     st_code = ''.join(b1+b2+b3 for b1,b2,b3 in zip(bins[0],bins[1],bins[2]))
     return st_code
 
+# print
 print(stencode_fast(input, maxmin,precision))
